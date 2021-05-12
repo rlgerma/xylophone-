@@ -49,13 +49,13 @@ class _HomePageState extends State<HomePage> {
       home: Scaffold(
           body: (SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(32.0),
           child: Center(
             child: ListView.builder(
               itemCount: colors.length,
               itemBuilder: (context, int i) {
                 return Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(21.0),
                   child: ElevatedButton(
                     onPressed: () => playNote(i + 1),
                     style: ElevatedButton.styleFrom(
